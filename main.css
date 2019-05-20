@@ -18,13 +18,10 @@ a {
 }
 
 nav {
-  position: fixed;
-  height: 100%;
-  width: 200px;
-  z-index: 10;
+  height: 400px;
+  width: 100%;
   overflow-x: hidden;
   background-color: #258EA6;
-  font-size: 20px;
   padding: 1% 0;
 }
 
@@ -34,7 +31,8 @@ nav {
 
 section {
   min-height: 200px;
-  padding: 6% 100px 1px 300px;
+  margin: 0 auto;
+  padding: 10%;
   background-color: #88CC9F;
 }
 
@@ -60,18 +58,18 @@ button {
   padding: 50px;
   margin: 0 auto;
   margin-bottom: 100px;
-  /* width: 90%; */
   max-width: 700px;
 }
 
 #bookmark-img {
-  /* margin: 0 25px 25px 150px; */
+  width: 100px;
+  margin: 0 auto;
 }
 
 #project-desc {
   font-size: 15px;
-  /* margin: 50px 100px 50px 50px; */
-  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-left: 100px;
 }
 
 .left {
@@ -84,4 +82,42 @@ button {
 
 .center {
   text-align: center;
+}
+
+@media only screen and (min-width: 1100px) {
+  nav {
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    z-index: 10;
+    overflow-x: hidden;
+    background-color: #258EA6;
+    font-size: 20px;
+    padding: 1% 0;
+  }
+
+  section {
+    min-height: 200px;
+    padding: 6% 100px 100px 300px;
+    background-color: #88CC9F;
+  }
+
+  section:nth-child(1) {
+    background-color: #44AF69;
+  }
+
+  section:nth-child(2) {
+    background-color: #60ACBE;
+  }
+
+  #project-desc {
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+
+  #bookmark-img {
+    float: right;
+  }
+  
 }
