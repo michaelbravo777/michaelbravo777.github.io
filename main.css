@@ -56,25 +56,14 @@ button {
   width: 80px;
 }
 
-/* .section-div {
-  font-size: 15px;
-  padding: 50px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  max-width: 700px;
-<<<<<<< HEAD
-} */
-
 .project-container {
   margin: 0 auto;
-  border: 1px solid red;
   width: 500px;
-  height: 500px;
+  height: 750px;
 }
 
 .project-desc {
-  border: 1px solid;
-  font-size: 15px;
+  font-size: 20px;
   width: 65%;
   margin-bottom: 50px;
   margin-left: 0px;
@@ -83,10 +72,7 @@ button {
 }
 
 .project-img {
-  border: 1px solid;
-  /* padding-left: 0px; */
   padding-top: 30px;
-  /* padding-bottom: 100px; */
   box-align: center;
   width: 35%;
   margin: 0 auto;
@@ -95,10 +81,6 @@ button {
 .github {
   float: left;
 }
-
-/* .left {
-  float: left;
-} */
 
 .right {
   float: right;
@@ -110,8 +92,8 @@ button {
 
 .about-me {
   margin: 0 auto;
-  width: 500px;
-  height: 300px;}
+  width: 300px;
+}
 
 @media only screen and (min-width: 700px) {
   body {
@@ -128,12 +110,7 @@ button {
 
   .project-container {
     margin: 0 auto;
-    border: 1px solid red;
     width: 700px;
-  }
-
-  .project-desc {
-
   }
 
   .about-me {
@@ -142,9 +119,6 @@ button {
   }
 
 }@media only screen and (min-width: 900px) {
-  body {
-    /* font-size: 18px; */
-  }
 
   section:nth-child(1) {
     background-color: #44AF69;
@@ -156,7 +130,6 @@ button {
 
   .project-container {
     margin: 0 auto;
-    border: 1px solid red;
     width: 700px;
     height: 300px;
   }
@@ -166,12 +139,13 @@ button {
   }
 
   .project-img {
+    margin-top: 10%;
     float: right;
   }
 
   .about-me {
     margin: 0 auto;
-    width: 500px;
+    width: 700px;
   }
 
 }@media only screen and (min-width: 1100px) {
@@ -209,15 +183,8 @@ button {
   }
 
   .project-container {
-    border: 1px solid red;
     width: 700px;
     height: 300px;
   }
-
-  /* .project-img {
-    padding-top: 20px;
-    padding-left: 40px;
-    float: right;
-  } */
 
 }
