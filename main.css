@@ -5,13 +5,20 @@
 body {
   font-family: "Open Sans",
   sans-serif; 
+<<<<<<< HEAD
   font-size: 24px;
+=======
+  font-size: 18px;
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
   color: #E9F5ED;
   line-height: 1.5;
   padding: 0;
   margin: 0;
   background-color: #60ACBE;
+<<<<<<< HEAD
   width: 100vh;
+=======
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
 }
 
 a {
@@ -20,6 +27,7 @@ a {
 }
 
 nav {
+<<<<<<< HEAD
   width: 100%;
   overflow-x: hidden;
   background-color: #258EA6;
@@ -30,6 +38,18 @@ nav {
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
+=======
+  height: 400px;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #258EA6;
+  padding: 1% 0;
+  margin: 0;
+}
+
+.nav-element {
+  margin-top: 20px;
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
 }
 
 section {
@@ -56,12 +76,17 @@ button {
   width: 80px;
 }
 
+<<<<<<< HEAD
 /* .section-div {
+=======
+.section-div {
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
   font-size: 15px;
   padding: 50px;
   margin: 0 auto;
   margin-bottom: 100px;
   max-width: 700px;
+<<<<<<< HEAD
 } */
 
 .project-container {
@@ -103,10 +128,34 @@ button {
   float: right;
 }
 
+=======
+}
+
+.bookmark-img {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.project-desc {
+  font-size: 15px;
+  width: 500px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.left {
+  float: left;
+}
+
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
 .center {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .about-me {
   margin: 0 auto;
   width: 500px;
@@ -143,6 +192,28 @@ button {
 }@media only screen and (min-width: 900px) {
   body {
     /* font-size: 18px; */
+=======
+#about-me {
+  margin: 0;
+}
+
+@media only screen and (min-width: 1100px) {
+  nav {
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    z-index: 10;
+    overflow-x: hidden;
+    background-color: #258EA6;
+    font-size: 20px;
+    padding: 1% 0;
+  }
+
+  section {
+    min-height: 200px;
+    padding: 6% 100px 100px 300px;
+    background-color: #88CC9F;
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
   }
 
   section:nth-child(1) {
@@ -153,6 +224,7 @@ button {
     background-color: #60ACBE;
   }
 
+<<<<<<< HEAD
   .project-container {
     margin: 0 auto;
     border: 1px solid red;
@@ -196,6 +268,27 @@ button {
   section {
     min-height: 200px;
     padding: 6% 100px 100px 300px;
+=======
+  .project-desc {
+    font-size: 15px;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .bookmark-img {
+    padding-top: 20px;
+    padding-left: 40px;
+    float: right;
+  }
+
+
+}@media only screen and (min-width: 900px) {
+  section {
+    min-height: 200px;
+    padding: 6% 100px 100px 200px;
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
     background-color: #88CC9F;
   }
 
@@ -207,6 +300,7 @@ button {
     background-color: #60ACBE;
   }
 
+<<<<<<< HEAD
   .project-container {
     border: 1px solid red;
     width: 700px;
@@ -218,5 +312,14 @@ button {
     padding-left: 40px;
     float: right;
   } */
+=======
+  .project-desc {
+    font-size: 15px;
+  }
+
+  .right {
+    margin: 0 auto;
+  }
+>>>>>>> b9faf462ca159ab42d86b3bca20ab08fb2f882fb
 
 }
