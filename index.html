@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Michael Bravo</title>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
@@ -21,63 +21,71 @@
             <a href='#interests'>Interests</a><br>
         </div> -->
         <div class='nav-element'>
-            <a href="mailto:michael.bravo777@gmail.com"><img src="email.png" alt="email"></a><br>
+            <a href="mailto:michael.bravo777@gmail.com" target="_blank" ><img src="email.png" alt="email"></a><br>
         </div>
         <div class='nav-element'>
-            <a href="https://github.com/michaelbravo777"><img src="github.png" alt="github"></a><br>
+            <a href="https://github.com/michaelbravo777" target="_blank" ><img src="github.png" alt="github"></a><br>
         </div>
         <div class='nav-element'>
-            <a href="https://www.linkedin.com/in/michael-bravo777/"><img src="linkedin.png" alt="linkedin"></a><br>
+            <a href="https://www.linkedin.com/in/michael-bravo777/" target="_blank" ><img src="linkedin.png" alt="linkedin"></a><br>
         </div>
     </nav>
     <main role="main">
-        <section id='about-me'>
+        <section>
             <h1 class='center'>About Me</h1>
-            <div class='section-div'>
+            <div class='about-me'>
                 I was the kid in the neighborhood who would fix everyone's computers. After school I would write games and utilities in BASIC. My 6th grade computer science teacher said I always pushed the limits of his knowledge. As an adult, I worked on the y2k project. I've traveled the world, I've been an entrepreneur, but I always came back to programming. It's the thing I love the most.
             </div>
         </section>
 
-        <section id='projects'>
+        <section>
             <h1 class='center'>Projects</h1>
-            <div class='section-div'>
+            <div class='project-container'>
                 <div class='left project-desc'>
                     <h3>Stay Informed</h3>
                     <div>
                         An app designed to help users find information on their congressional representatives by address. Implemented using 5 different APIs (Google Civic Api, ProPublica API, OpenSecrets API, United States Images Github, and NewsAPI.org). Using Agile methodology, I worked on a team of 5 to design, implement, and code and full-stack React/Express/Postgres mobile-first app.
-                        <a href="https://github.com/thinkful-ei-dragonfly/michaelb-bookmarks-app" target="_blank">Link to GitHub</a>
-                    </div><br>
-                    <button><a href="https://thinkful-ei-dragonfly.github.io/michaelb-bookmarks-app/" target="_blank">Visit Site</a></button>
+                    </div>
+                    <br>
+                    <button class='github'><a href="https://github.com/thinkful-ei-dragonfly/stay-informed-client" target="_blank">GitHub</a></button>
+                    <button class='right'><a href="https://stayinformed-app.now.sh/" target="_blank">Visit Site</a></button>
                 </div>
-                <div class='right bookmark-img'>
+                <div class='center project-img'>
                     <a href="https://stayinformed-app.now.sh/" target="_blank"><img src="stay-informed.jpg" alt="stay informed app thumbnail" height="150"></a>
                 </div>
-
-                <div class='left project-desc'>
-                        <h3>Spaced Repetition</h3>
-                        <div>
-                            An app designed to help users learn a new language using the spaced repetition technique. Implemented a modified linked list to use the spaced repetition learning technique. Worked in a team of two to create mockups, wireframes, and build a full-stack app to meet provided test specifications.
-                            <a href="https://github.com/thinkful-ei-dragonfly/michaelb-bookmarks-app" target="_blank">Link to GitHub</a>
-                        </div><br>
-                        <button><a href="https://thinkful-ei-dragonfly.github.io/michaelb-bookmarks-app/" target="_blank">Visit Site</a></button>
-                    </div>
-                    <div class='right bookmark-img'>
-                        <a href="https://spaced-repetition.michaelbravo777.now.sh/" target="_blank"><img src="spaced-repitition.jpg" alt="spaced repitition app thumbnail" height="150"></a>
-                </div>
-
-                <div class='left project-desc'>
-                        <h3>zenTube</h3>
-                        <div>
-                            Independently designed, implemented, and deployed. Built using React, Express, PostgreSQL. Deployed app client using Zeit’s Now server and API using Heroku. Currently functions as youTube clone, however I plan on adding a new comment system which allow the user to comment at specific timestamps.
-                            <a href="https://github.com/thinkful-ei-dragonfly/michaelb-bookmarks-app" target="_blank">Link to GitHub</a>
-                        </div><br>
-                        <button><a href="https://thinkful-ei-dragonfly.github.io/michaelb-bookmarks-app/" target="_blank">Visit Site</a></button>
-                    </div>
-                    <div class='right bookmark-img'>
-                        <a href="https://zentube.michaelbravo777.now.sh/" target="_blank"><img src="zenTube.jpg" alt="zenTube app thumbnail" height="150"></a>
-                </div>
-            
             </div>
+
+            <div class='project-container'>
+                <div class='project-desc'>
+                    <h3>Spaced Repetition</h3>
+                    <div>
+                        An app designed to help users learn a new language using the spaced repetition technique. Implemented a modified linked list to use the spaced repetition learning technique. Worked in a team of two to create mockups, wireframes, and build a full-stack app to meet provided test specifications.
+                        <a href="https://github.com/thinkful-ei-dragonfly/spaced-repetition-api-dustin-michaelb" target="_blank">Link to GitHub</a>
+                    </div>
+                    <br>
+                    <button class='github'><a href="https://github.com/thinkful-ei-dragonfly/spaced-repetition-api-dustin-michaelb" target="_blank">GitHub</a></button>
+                    <button class='right'><a href="https://spaced-repetition.michaelbravo777.now.sh/" target="_blank">Visit Site</a></button>
+                </div>
+                <div class='center project-img'>
+                    <a href="https://spaced-repetition.michaelbravo777.now.sh/" target="_blank"><img src="spaced-repitition.jpg" alt="spaced repitition app thumbnail" height="150"></a>
+                </div>
+            </div>
+
+            <div class='project-container'>
+                <div class='project-desc'>
+                    <h3>zenTube</h3>
+                    <div>
+                        Independently designed, implemented, and deployed. Built using React, Express, PostgreSQL. Deployed app client using Zeit’s Now server and API using Heroku. Currently functions as youTube clone, however I plan on adding a new comment system which allow the user to comment at specific timestamps.
+                    </div>
+                    <br>
+                    <button class='github'><a href="https://github.com/thinkful-ei-dragonfly/zentube-client-michaelb" target="_blank">GitHub</a></button>
+                    <button class='right'><a href="https://zentube.michaelbravo777.now.sh/" target="_blank">Visit Site</a></button>
+                </div>
+                <div class='center project-img'>
+                    <a href="https://zentube.michaelbravo777.now.sh/" target="_blank"><img src="zenTube.jpg" alt="zenTube app thumbnail" height="150"></a>
+                </div>
+            </div>
+            
         </section>
 
         <!-- <section id='interests'>
