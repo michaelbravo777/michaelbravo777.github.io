@@ -32,6 +32,10 @@ nav {
   margin: 0 auto;
 }
 
+.nav-element img:hover {
+  opacity:.5;
+}
+
 section {
   min-height: 200px;
   margin: 0 auto;
@@ -53,13 +57,20 @@ button {
   border-radius: 5px;
   color: white;
   margin: 0 auto;
-  width: 80px;
+  padding-top: 4px;
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity:.5;
 }
 
 .project-container {
   margin: 0 auto;
   width: 500px;
-  height: 920px;
+  height: 1100px;
 }
 
 .project-desc {
@@ -73,9 +84,13 @@ button {
 
 .project-img {
   padding-top: 30px;
-  box-align: center;
-  width: 35%;
+  text-align: center;
+  /* width: 35%; */
   margin: 0 auto;
+}
+
+.project-img img {
+  width: 250px;
 }
 
 .github {
@@ -112,6 +127,7 @@ button {
   .project-container {
     margin: 0 auto;
     width: 700px;
+    height: 950px;
   }
 
   .about-me {
@@ -119,7 +135,7 @@ button {
     width: 500px;
   }
 
-}@media only screen and (min-width: 900px) {
+/* }@media only screen and (min-width: 900px) {
 
   section:nth-child(1) {
     background-color: #44AF69;
@@ -139,15 +155,15 @@ button {
     float: left;
   }
 
-  .project-img {
+  /* .project-img {
     margin-top: 10%;
     float: right;
-  }
+  } */
 
   .about-me {
     margin: 0 auto;
     width: 700px;
-  }
+  } */
 
 }@media only screen and (min-width: 1100px) {
   nav {
@@ -183,9 +199,33 @@ button {
     background-color: #60ACBE;
   }
 
+  .project-desc {
+    font-size: 18px;
+    width: 60%;
+    float: left;
+  }
+
   .project-container {
-    width: 700px;
-    height: 300px;
+    width: 750px;
+    height: 450px;
+  }
+
+  .project-img {
+    margin-left: 5px;
+    margin-top: 0;
+    float: right;
+  }
+
+}@media only screen and (min-width: 1400px) {
+  .project-container {
+    width: 1000px;
+    /* height: 450px; */
+  }
+
+  .project-img {
+    margin-left: 70px;
+    /* margin-top: 5%; */
+    float: right;
   }
 
 }
