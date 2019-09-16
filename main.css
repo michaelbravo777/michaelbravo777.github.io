@@ -26,6 +26,13 @@ nav {
   background-color: #258EA6;
 }
 
+.nav-photo {
+  padding: 5%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
 .nav-element {
   padding: 5%;
   display: inline-block;
@@ -89,7 +96,6 @@ button:hover {
 .project-img {
   padding-top: 30px;
   text-align: center;
-  /* width: 35%; */
   margin: 0 auto;
 }
 
