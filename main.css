@@ -11,8 +11,9 @@ body {
   padding: 0;
   margin: 0;
   background-color: #60ACBE;
-  width: 100vh;
   overflow-x: hidden;
+  min-width: 320px;
+  width: 100%;
 }
 
 a {
@@ -21,8 +22,7 @@ a {
 }
 
 nav {
-  width: 101%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: #258EA6;
 }
 
@@ -34,14 +34,14 @@ nav {
 }
 
 .nav-element {
-  padding: 5%;
+  padding: 4%;
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
 }
 
 .nav-element img:hover {
-  opacity:.5;
+  -webkit-filter: invert(100%);
 }
 
 section {
@@ -49,44 +49,40 @@ section {
   margin: 0 auto;
   padding: 10%;
   background-color: #88CC9F;
-  width: 101%;
 }
 
 section:nth-child(1) {
   background-color: #44AF69;
-  width: 101%;
 }
 
 section:nth-child(2) {
   background-color: #60ACBE;
-  width: 101%;
 }
 
-button {
+.button {
   display: block;
   background-color: #258EA6;
   border-radius: 5px;
-  color: white;
+  color: #ffffff;
   margin: 0 auto;
   padding-top: 4px;
-  width: 120px;
-  height: 30px;
+  width: 85px;
+  height: 33px;
   font-size: 18px;
+  text-align: center;
 }
 
-button:hover {
-  opacity:.5;
+.button:hover {
+  background: #44AF69;
 }
 
 .project-container {
   margin: 0 auto;
-  width: 500px;
-  height: 1100px;
+  width: 80%;
 }
 
 .project-desc {
   font-size: 24px;
-  width: 65%;
   margin-bottom: 50px;
   margin-left: 0px;
   margin: 0 auto;
@@ -95,12 +91,24 @@ button:hover {
 
 .project-img {
   padding-top: 30px;
-  text-align: center;
+  padding-bottom: 70px;
   margin: 0 auto;
 }
 
-.project-img img {
+/* .project-img img {
+  width: 100%;
+} */
+
+.stay-informed-img {
   width: 250px;
+}
+
+.spaced-repitition-img {
+  width: 150px;
+}
+
+.zenTube-img {
+  width: 100px;
 }
 
 .github {
@@ -117,81 +125,55 @@ button:hover {
 
 .about-me {
   margin: 0 auto;
-  width: 300px;
+  width: 80%;
   padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 700px) {
-  body {
-    width: 100%;
+  .stay-informed-img {
+    width: 500px;
   }
 
-  .project-container {
-    margin: 0 auto;
-    width: 700px;
-    height: 950px;
+  .spaced-repitition-img {
+    width: 271px;
   }
 
-  .about-me {
-    margin: 0 auto;
-    width: 450px;
+  .zenTube-img {
+    width: 217px;
   }
 
-}@media only screen and (min-width: 1100px) {
-  nav {
-    position: fixed;
-    height: 100%;
-    width: 200px;
-    z-index: 10;
-    overflow-x: hidden;
-    background-color: #258EA6;
-    padding: 1% 0;
+  .github {
+    margin-left: 100px;
+    float: left;
   }
   
-  .nav-element {
-    margin-top: 20px;
-    float: none;
-    padding: 10px;
-    display: block;
-    height: 120px;
-    margin: 10px;
+  .right {
+    margin-right: 100px;
+    float: right;
   }
 
-  section {
-    padding: 6% 100px 100px 300px;
-  }
+}
 
+@media only screen and (min-width: 1600px) {
+  .project-container {
+    height: 550px;
+  }
 
   .project-desc {
-    font-size: 18px;
     width: 60%;
     float: left;
   }
 
-  .project-container {
-    width: 750px;
-    height: 450px;
-  }
-
   .project-img {
-    margin-left: 5px;
-    margin-top: 0;
-    float: right;
-  }
-
-  .about-me {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 50px;
     margin: 0 auto;
-    width: 650px;
+    width: 40%;
+    max-height: 100px;
+    float: left;
   }
 
-}@media only screen and (min-width: 1400px) {
-  .project-container {
-    width: 1000px;
-  }
 
-  .project-img {
-    margin-left: 70px;
-    float: right;
-  }
 
 }
